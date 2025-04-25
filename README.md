@@ -1,85 +1,102 @@
-**📚 School Management System**
-The School Management System is a full-stack web application designed to simplify and modernize the daily operations of educational institutions. It allows administrators, teachers, and students to manage attendance, user roles, classes, and more — all through an easy-to-use interface.
+# 📚 School Management System
 
-*🛠️ Tech Stack*
+The **School Management System** is a full-stack web application designed to simplify and modernize the daily operations of educational institutions. It enables administrators, teachers, and students to manage attendance, user roles, classes, and more — all through an easy-to-use interface.
 
-Frontend
-⚛️ React.js
+---
 
-🎨 Tailwind CSS / CSS Modules (if used)
+## 🛠️ Tech Stack
 
-🔐 Firebase Authentication
+### Frontend
+- ⚛️ React.js  
+- 🎨 Tailwind CSS / CSS Modules (if used)  
+- 🔐 Firebase Authentication  
+- ⚙️ Vite  
 
-⚙️ Vite
+### Backend
+- 🟢 Node.js  
+- ⚡ Express.js  
+- 🛢️ MongoDB  
+- 🔐 JWT (JSON Web Token) for authentication  
 
-Backend
-🟢 Node.js
+### Other Tools
+- 🧪 Postman (for API testing)  
+- 📦 npm (for dependency management)  
+- 🔧 dotenv (for environment configuration)  
 
-⚡ Express.js
+---
 
-🛢️ MongoDB
+## 👥 Built By
 
-🔐 JWT (JSON Web Token) for authentication
+| Name               | Role                      | Contributions                                                                 | LinkedIn                                                                 |
+|--------------------|---------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Saksham Chaurasiya | Backend & Full Stack Dev  | Project setup, backend APIs, authentication, integration with MongoDB & Firebase | [Saksham Chaurasiya](https://www.linkedin.com/in/saksham-chaurasiya-14f/) |
+| Himanshu Agrawal   | Design & Database         | UI/UX design planning, MongoDB schema design, data structure & management   | [Himanshu Agrawal](https://www.linkedin.com/in/himanshu-agrawal-software-developer) |
+| Mudit Shrivastava  | Frontend Developer        | React UI components, routing, integration with backend                      | [Mudit Shrivastava](https://www.linkedin.com/in/mudit-shrivastav-81199326a) |
+| Mohit Bamne        | Frontend Developer        | Page layouts, styling, frontend validation and testing                      | [Mohit Bamne](https://www.linkedin.com/in/mohit-bamne-7a9192311) |
 
-Other Tools
-🧪 Postman (for API testing)
+---
 
-📦 npm (for dependency management)
+## 🚀 Getting Started
 
-🔧 dotenv (for environment configuration)
-
-
-👥 Built By
-Name | Role | Contributions | www.linkedin.com/in/saksham-chaurasiya-14f
-Saksham Chaurasiya | Backend & Full Stack Developer | Project setup, backend APIs, authentication, integration with MongoDB and Firebase | 
-Himanshu Agrawal | Design & Database | UI/UX design planning, MongoDB schema design, data structure & management | LinkedIn //Himanshu linkedin
-Mudit Shrivastava | Frontend Developer | React UI components, routing, integration with backend | LinkedIn //Mudit
-Mohit Bamne | Frontend Developer | Page layouts, styling, frontend validation and testing | LinkedIn /Mohit
-
-
-
-
-*🚀 Getting Started*
 Follow the steps below to set up and run the School Management System project on your local machine.
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone <your-repo-link>
 cd School-Management-System-main
+```
 
+### 2. Configure Environment Variables
 
-2. Configure Environment Variables
-Create a .env file in the root directory and add the following variables:
+Create a `.env` file in the root directory and add the following:
 
+```env
 MONGO=your_mongodb_url
 JWT_SECRET=your_secret_key
 VITE_FIREBASE_API_KEY=your_firebase_key
+```
 
+### 3. Install Dependencies
 
-3. Install Dependencies
-Backend
+#### Backend
 
+```bash
 npm install
+```
 
-Frontend
+#### Frontend
 
+```bash
 cd client
 npm install
+```
 
+### 4. Run the Application
 
-4. Run the Application
-Start Backend Server
-Make sure you are in the root folder (School-Management-System-main):
+#### Start Backend Server
 
+From the root folder:
+
+```bash
 npm run dev
+```
 
-Start Frontend Server
-In a new terminal, navigate to the client directory and run:
+#### Start Frontend Server
 
+In a new terminal:
+
+```bash
 cd client
 npm run dev
+```
 
-5. Access the Project
-Open your browser and go to:
+### 5. Access the Project
 
+Open your browser and visit:
+
+```
 http://localhost:5173/
+```
+
+---
