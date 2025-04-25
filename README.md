@@ -1,6 +1,6 @@
 # 📚 Student Management System
 
-The **School Management System** is a full-stack web application designed to simplify and modernize the daily operations of educational institutions. It enables administrators, teachers, and students to manage attendance, user roles, classes, and more — all through an easy-to-use interface.
+The **Student Management System** is a full-stack web application designed to simplify and modernize the daily operations of educational institutions. It enables administrators, teachers, and students to manage attendance, user roles, classes, and more — all through an easy-to-use interface.
 
 ---
 
@@ -38,12 +38,12 @@ The **School Management System** is a full-stack web application designed to sim
 
 ## 🚀 Getting Started
 
-Follow the steps below to set up and run the School Management System project on your local machine.
+Follow the steps below to set up and run the Student Management System project on your local machine.
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Himanshuagrawal2003/Student-Management-System.git
 cd Student-Management-System-main
 ```
 
