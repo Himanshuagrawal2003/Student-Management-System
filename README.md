@@ -1,68 +1,85 @@
-<<<<<<< HEAD
-# School Management Application📚🎓
+**📚 School Management System**
+The School Management System is a full-stack web application designed to simplify and modernize the daily operations of educational institutions. It allows administrators, teachers, and students to manage attendance, user roles, classes, and more — all through an easy-to-use interface.
 
-A web-based school management application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Tailwind CSS for styling. This application allows managing classes, teachers, and students in a school and provides analytics functionalities.
+*🛠️ Tech Stack*
 
-## Video:
+Frontend
+⚛️ React.js
 
-https://github.com/tanisha0605/School-Management-System/assets/144723509/8cac718a-e411-4857-9a33-9db8b9984114
+🎨 Tailwind CSS / CSS Modules (if used)
 
-## Technologies Used
-- Frontend : React, MaterialUI, AG Charts
-- Backend : Node.js , MongoDB , Express.js, Firebase
+🔐 Firebase Authentication
 
-## Features
+⚙️ Vite
 
-- **Data Management**: Manages three core models:
-  - **Class**: Stores details like class name, year, teacher, student fees, and student list.
-  - **Teacher**: Teacher information including name, gender, D.O.B., contact details, salary, assigned class, etc.
-  - **Student**: Student information including name, gender, D.O.B., contact details, fees paid, and class, etc.
-- **CRUD Operations**: Supports CRUD operations for all the above models.
-- **Reusable React Components**: Develops reusable React components for forms and tables.
-- **Dynamic Forms**: Forms dynamically render input fields based on the selected model (Class, Teacher, Student).
-- **Class Limit**: Adds a limit to the number of students in each class.
-- **Analytics Pages**:
-  - Clicking on a class in the class management page opens a class analytics page showing all details of the class like name, year, teachers, students list, etc. Also, includes a graph showing the number of male and female students in that class.
-  - An analytics page showing the expenses spent on teachers' salaries and income generated from paid students' fees. Provides a toggle to switch between monthly/yearly views and options to select the month and year for monthly view and year for yearly view.
+Backend
+🟢 Node.js
 
-## Bonus Features
+⚡ Express.js
 
-- **Pagination,Filtering and Sorting**: Implements pagination,filtering and sorting for tables.
-- **Form Validation**: Includes form validation to ensure data integrity and accuracy.
+🛢️ MongoDB
 
-## Installation
+🔐 JWT (JSON Web Token) for authentication
 
-1. Clone the repository:
-   ```bash
-   https://github.com/tanisha0605/School-Management-System.git
-   ```
-2.Navigate to the project directory:
-  ```bash
-  cd school-management-application
-  ```
-3.Install dependencies:
-  ```bash
-  npm install
-  ```
-4.Set up MongoDB:
-Install MongoDB locally or use a cloud-based MongoDB service.
-Configure MongoDB connection URI in the .env file.
+Other Tools
+🧪 Postman (for API testing)
 
-## Usage
-1.Start the server:
-```bash
-npm start
-```
-2.Go to client directory and run the command:
-```bash
+📦 npm (for dependency management)
+
+🔧 dotenv (for environment configuration)
+
+
+👥 Built By
+Name | Role | Contributions | www.linkedin.com/in/saksham-chaurasiya-14f
+Saksham Chaurasiya | Backend & Full Stack Developer | Project setup, backend APIs, authentication, integration with MongoDB and Firebase | 
+Himanshu Agrawal | Design & Database | UI/UX design planning, MongoDB schema design, data structure & management | LinkedIn //Himanshu linkedin
+Mudit Shrivastava | Frontend Developer | React UI components, routing, integration with backend | LinkedIn //Mudit
+Mohit Bamne | Frontend Developer | Page layouts, styling, frontend validation and testing | LinkedIn /Mohit
+
+
+
+
+*🚀 Getting Started*
+Follow the steps below to set up and run the School Management System project on your local machine.
+
+1. Clone the Repository
+
+git clone <your-repo-link>
+cd School-Management-System-main
+
+
+2. Configure Environment Variables
+Create a .env file in the root directory and add the following variables:
+
+MONGO=your_mongodb_url
+JWT_SECRET=your_secret_key
+VITE_FIREBASE_API_KEY=your_firebase_key
+
+
+3. Install Dependencies
+Backend
+
+npm install
+
+Frontend
+
+cd client
+npm install
+
+
+4. Run the Application
+Start Backend Server
+Make sure you are in the root folder (School-Management-System-main):
+
 npm run dev
-```
-3.Open the application in your browser:
-```bash
-http://localhost:5173/
-```
 
-   
-=======
-# Student-Management-System
->>>>>>> a315e3a6f3026c7380e216554c06a621504cbb3f
+Start Frontend Server
+In a new terminal, navigate to the client directory and run:
+
+cd client
+npm run dev
+
+5. Access the Project
+Open your browser and go to:
+
+http://localhost:5173/
