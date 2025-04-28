@@ -44,7 +44,7 @@ Follow the steps below to set up and run the Student Management System project o
 
 ```bash
 git clone https://github.com/Himanshuagrawal2003/Student-Management-System.git
-cd Student-Management-System-main
+cd Student-Management-System
 ```
 
 ### 2. Configure Environment Variables
